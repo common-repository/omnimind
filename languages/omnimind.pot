@@ -1,0 +1,360 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Omnimind\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-12 08:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.10; wp-6.5.4\n"
+"X-Domain: omnimind"
+
+#: src/Templates/admin/settings-page.php:384
+msgid ""
+"add\n"
+"                                                    field"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:391
+msgid "Advanced Settings"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:448
+msgid ""
+"After making changes, it is highly advisable to run a re-synchronization at "
+"the <strong>Indexing</strong>\n"
+"                            tab."
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:119
+msgid "AI answer"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:585
+#: src/Templates/admin/settings-page.php:610
+msgid "Answer"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:56
+#: src/Templates/admin/settings-page.php:207
+msgid "API Key"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:222
+msgid "at Omnimind"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:324
+msgid "Attribute"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:135
+msgid "Autocomplete"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:226
+msgid "By happy with a new AI omni search :-)"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:170
+msgid "Cache"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:177
+msgid "Cache period"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:518
+msgid "Clear and Reinitialize"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:555
+msgid "Clicking it you"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:127
+#: src/Templates/admin/settings-page.php:586
+#: src/Templates/admin/settings-page.php:611
+msgid "Content"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:46
+msgid "Content types"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:225
+msgid "Copy and paste it here and clock Verify"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:35
+msgid "Create project"
+msgstr ""
+
+#. Description of the plugin
+msgid "Customizable REST API endpoints with API Key authentication."
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:583
+#: src/Templates/admin/settings-page.php:608
+msgid "Date"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:569
+msgid "Delete"
+msgstr ""
+
+#. ID
+#: src/Admin/ClassAdmin.php:178 src/Admin/ClassAdmin.php:751
+#: src/Admin/ClassAdmin.php:763
+msgid "Exclude from Omnimind"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:526
+msgid ""
+"Executing this will remove all indexed information from OmniMind, but your\n"
+"                                            WordPress site remains "
+"unaffected. The entire process might span several\n"
+"                                            hours, contingent on the volume "
+"of content awaiting"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:45
+msgid "General"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:223
+msgid "Get a key at"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:578
+msgid "Here you can see you users search requests"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:180
+msgid "hours"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:477
+msgid ""
+"If you notice missing information in your search outcomes or if you've\n"
+"                                            recently incorporated new custom "
+"content categories to your platform, it's\n"
+"                                            advisable to initiate a "
+"synchronization to update these modifications."
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:47
+msgid "Indexing"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:49
+msgid "Info"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:326
+msgid "Label"
+msgstr ""
+
+#: src/Front/ClassAssets.php:52
+msgid "Next"
+msgstr ""
+
+#: src/Admin/ClassAdmin.php:188
+msgid "Omni sync status"
+msgstr ""
+
+#. Name of the plugin
+#: src/Admin/ClassNav.php:37 src/Admin/ClassNav.php:38
+msgid "Omnimind"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:42
+msgid "Omnimind Configuration"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:110
+msgid "Options"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:174
+msgid ""
+"Output results can be cached to prevent numerous requests to AI and save\n"
+"                                                the costs. If you set it to "
+"0 no cache is going to be applied"
+msgstr ""
+
+#: src/Front/ClassPublic.php:59 src/Front/ClassPublic.php:77
+msgid "Permission denied..."
+msgstr ""
+
+#: src/Front/ClassAssets.php:51
+msgid "Prev"
+msgstr ""
+
+#. Author of the plugin
+msgid "Procoders"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:71
+msgid "Project"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:31
+msgid "Project name"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:157
+msgid "Proof level"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:550
+msgid "Purge and change API key"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:189
+msgid "Purge cache"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:584
+#: src/Templates/admin/settings-page.php:609
+msgid "Question"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:538
+msgid "Re-Index"
+msgstr ""
+
+#: src/Front/ClassAssets.php:48
+msgid "Read More"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:556
+msgid "remove"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:48
+msgid "Requests"
+msgstr ""
+
+#: src/Front/ClassAssets.php:50
+msgid "Results"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:145
+msgid "Results limit"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:199
+msgid "Save"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:456
+msgid "Save Post Types"
+msgstr ""
+
+#: src/Front/ClassAssets.php:49 src/Templates/public/search-form.php:21
+msgid "Search"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:325
+msgid "Searchable"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:223
+msgid "section"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:96
+msgid "Select"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:422
+msgid "Select Metadata Columns"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:238
+msgid ""
+"Select the content types in your project that will be included in the search "
+"results and be\n"
+"                            used to construct AI answers"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:395
+msgid "Select Title Columns"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:90
+msgid "Settings"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:223
+msgid "Settings - Profile - API Keys"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:523
+msgid ""
+"Should you continue to face discrepancies in your search outcomes, consider\n"
+"                                            starting a thorough re-"
+"synchronization."
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:221
+msgid "Sign Up"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:505
+msgid "Sync Now"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:471
+msgid "Sync Settings"
+msgstr ""
+
+#: src/Templates/public/search-form.php:18
+msgid "Type here your question..."
+msgstr ""
+
+#: src/Front/ClassPublic.php:147
+msgid "Unable to cache request."
+msgstr ""
+
+#: src/Front/ClassPublic.php:127 src/Front/ClassPublic.php:138
+msgid "Unable to process request."
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:617
+msgid ""
+"Use the shortcode [omni_search] to display the search field on the website "
+"page."
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:216
+msgid "Verify"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:559
+msgid "You can setup a new API key and start from"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:64
+msgid "Your Omnimind API key"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:102
+msgid "Your Omnimind Project name"
+msgstr ""
+
+#: src/Templates/admin/settings-page.php:556
+msgid ""
+"your project and\n"
+"                                            purge all indexes at Omnimind. "
+"It doesn't affect you Wordpress data. This\n"
+"                                            action is not reversible."
+msgstr ""

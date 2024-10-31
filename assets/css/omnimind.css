@@ -1,0 +1,519 @@
+/*.tab-content {
+	display: none;
+}*/
+.omni-config__container {
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.omni-config .tabs-list {
+	padding-top: 24px;
+}
+.omni-config .tab-item {
+	display: none;
+}
+.omni-config .tab-control {
+	padding:10px 10px 0;
+	margin:0;
+	list-style:none;
+	display: flex;
+	gap: 10px;
+	border-bottom: 1px solid #c3c4c7;
+}
+.omni-config .tab-control li {
+	margin: 0;
+}
+.omni-config .tab-control .tab-opener {
+	text-decoration: none;
+	color: inherit;
+	border: 1px solid #c3c4c7;
+	border-bottom-width: 0;
+	padding: 5px 10px;
+	font-weight: 600;
+	background-color: #dcdcde;
+	color: #50575e;
+	font-size: 14px;
+	display: block;
+}
+.omni-config .tab-control .tab-opener:hover,
+.omni-config .tab-control .tab-opener.active,
+.omni-config .tab-control .tab-opener:focus {
+	background-color: #fff;
+	color: #3c434a;
+}
+.omni-config .tab-item.active {
+	display: block;
+}
+
+.omni-config .form-row {
+	display:-ms-grid;
+	display:grid;
+	-ms-grid-columns:100px 1fr;
+	grid-template-columns:100px 1fr;
+	grid-gap: 24px;
+	margin-bottom: 36px;
+}
+.omni-config .form-label {
+	font-weight: 600;
+	line-height: 30px;
+
+}
+.omni-config .form-input {
+	width: 100%;
+}
+.omni-config .api-status {
+	display:-ms-grid;
+	display:grid;
+	-ms-grid-columns:1fr 24px;
+	grid-template-columns:1fr 24px;
+	grid-gap: 10px;
+	align-items: center;
+}
+.omni-config .api-verify {
+	display:-ms-grid;
+	display:grid;
+	-ms-grid-columns:1fr 24px 100px;
+	grid-template-columns:1fr 24px 100px;
+	grid-gap: 10px;
+	align-items: center;
+}
+.omni-config .inputs-wrap {
+	display:-ms-grid;
+	display:grid;
+	-ms-grid-columns:1fr 100px 30px;
+	grid-template-columns:1fr 100px 30px;
+	grid-gap: 10px;
+	align-items: center;
+}
+.omni-config .status .dashicons-yes-alt {
+	color: green;
+}
+.omni-config .status .dashicons-dismiss {
+	color: red;
+}
+.omni-config .button {
+	text-align: center;
+}
+.omni-config .button .dashicons {
+	font-size: 16px;
+	width: 16px;
+	height: 16px;
+	margin-top: 5px;
+}
+.omni-config .form-info {
+	margin-top: 7px;
+}
+.omni-config .form-columns {
+	display:-ms-grid;
+	display:grid;
+	-ms-grid-columns:repeat(2, 1fr);
+	grid-template-columns:repeat(2, 1fr);
+	grid-gap: 24px;
+}
+.omni-config .checkbox-list {
+	margin: 0;
+}
+.omni-config .form-block {
+	position: relative;
+	border: 1px solid #c3c4c7;
+	border-top-width: 0;
+	margin-top: 15px;
+	margin-block: 24px;
+}
+.omni-config .form-block p:first-child {
+	margin-top: 0;
+}
+.omni-config .form-block p:last-child {
+	margin-bottom: 0;
+}
+.omni-config .form-block__title {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	top: -15px;
+	overflow: hidden;
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: 600;
+	padding: 0 24px;
+	box-sizing: border-box;
+}
+.omni-config .form-block__title span {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+.omni-config .form-block__title span:before {
+	content: '';
+	position: absolute;
+	top: 15px;
+	right: 100%;
+	margin-right: 10px;
+	border-top: 1px solid #c3c4c7;
+	width: 100vw;
+}
+.omni-config .form-block__title span:after {
+	content: '';
+	position: absolute;
+	top: 15px;
+	left: 100%;
+	margin-left: 10px;
+	border-top: 1px solid #c3c4c7;
+	width: 100vw;
+}
+.omni-config .form-block__frame {
+	padding: 24px 24px 24px;
+}
+.omni-config .form-block__wrap {
+	display:-ms-grid;
+	display:grid;
+	-ms-grid-columns:1fr 140px;
+	grid-template-columns:1fr 140px;
+	grid-gap: 24px;
+}
+.omni-config .cache-input {
+	display:-ms-grid;
+	display:grid;
+	-ms-grid-columns:2fr 1fr 1fr;
+	grid-template-columns:2fr 1fr 1fr;
+	grid-gap: 24px;
+	align-items: center;
+}
+.omni-config .btn-omni {
+	display: inline-flex;
+	align-items: center;
+	font-size: 13px;
+	line-height: 2;
+	min-height: 30px;
+	gap: 5px;
+	text-align: center;
+	padding: 0 10px;
+	margin: 0;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-appearance: none;
+	border-radius: 3px;
+	white-space: nowrap;
+	box-sizing: border-box;
+	text-decoration: none;
+	justify-content: center;
+	color: #2271b1;
+	border-color: #2271b1;
+	background-color: #f6f7f7;
+}
+.omni-config .btn-omni[disabled] {
+	opacity: .5;
+	pointer-events: none;
+}
+.omni-config .btn-omni--block {
+	display: flex;
+	width: 100%;
+}
+.omni-config .btn-omni svg {
+	fill: currentColor;
+}
+.omni-config .btn-omni.btn-omni--loading svg {
+	animation: spin-loader 2s linear infinite;
+}
+@keyframes spin-loader {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+.omni-config .btn-omni:hover {
+	background: #f0f0f1;
+	border-color: #0a4b78;
+	color: #0a4b78;
+}
+.omni-config .btn-omni--primary {
+	background: #2271b1;
+	border-color: #2271b1;
+	color: #fff;
+}
+.omni-config .btn-omni--primary:hover {
+	background: #135e96;
+	border-color: #135e96;
+	color: #fff;
+}
+.omni-config .btn-omni--success {
+	background: #198754;
+	border-color: #146c43;
+	color: #fff;
+}
+.omni-config .btn-omni--success:hover {
+	background: #157347;
+	border-color: #146c43;
+	color: #fff;
+}
+.omni-config .btn-omni--warning {
+	background: #ffc107;
+	border-color: #ffc107;
+	color: #333;
+}
+.omni-config .btn-omni--warning:hover {
+	background: #f0a451;
+	border-color: #f0a451;
+	color: #111;
+}
+.omni-config .btn-omni--danger {
+	background: #dc3545;
+	border-color: #dc3545;
+	color: #fff;
+}
+.omni-config .btn-omni--danger:hover {
+	background: #aa2c38;
+	border-color: #aa2c38;
+	color: #fff;
+}
+
+
+.omni-config .content-types {
+	padding:0;
+	margin:0;
+	list-style:none;
+	display:-ms-grid;
+	display:grid;
+	-ms-grid-columns:1fr;
+	grid-template-columns:1fr;
+	grid-gap: 36px;
+}
+.omni-config .content-type-head {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.omni-config .attributes-wrap {
+	margin: 16px 0 0;
+	padding: 0 0 0 32px;
+}
+.omni-config .attributes-table {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	width: 100%;
+}
+.omni-config .attributes-table td,
+.omni-config .attributes-table th {
+	padding: 4px 10px;
+}
+.omni-config .attributes-table td,
+.omni-config .attributes-table th {
+	border-left: 1px solid #ccc;
+}
+.omni-config .attributes-table tr:nth-child(2n) td {
+	background-color: rgba(0,0,0,.05);
+}
+
+.omni-config .advanced-settings {
+	margin-top: 20px;
+	border-top: 1px solid #ccc;
+	padding-top: 20px;
+}
+.omni-config .advanced-settings__content {
+	display: none;
+}
+.omni-config .advanced-settings.active .advanced-settings__opener {
+/*	background-color: #fff;*/
+}
+.omni-config .advanced-settings .select2-container {
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+}
+.omni-config .advanced-settings .select2-search.select2-search--inline {
+	display: none;
+}
+
+.omni-config .advanced-settings__label {
+	margin: 0 0 5px;
+	font-weight: bold;
+}
+.omni-config .advanced-settings__row {
+	margin-top: 15px;
+}
+
+.omni-config .select2-container .select2-selection--multiple .select2-selection__rendered {
+	vertical-align: top;
+	padding: 0;
+}
+.omni-config .select2-container .select2-selection--multiple {
+	padding: 0;
+}
+
+.omni-config .custom-field {
+	padding: 15px 0 0;
+	display:-ms-grid;
+	display:grid;
+	-ms-grid-columns:1fr 80px;
+	grid-template-columns:1fr 80px;
+	grid-gap: 20px;
+	position: relative;
+}
+.omni-config .autocomplete-items {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	overflow: auto;
+	max-height: 200px;
+}
+.omni-config .autocomplete-items__item {
+	padding: 5px 15px;
+}
+.omni-config .autocomplete-items__item:hover {
+	background-color: #eee;
+}
+
+
+.omni-modal {
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+
+	min-width: 120px;
+	max-width: 320px;
+
+	padding: 15px;
+	color: #fff;
+
+	display: flex;
+	opacity: 0;
+	visibility: hidden;
+
+	transition: all ease .3s;
+}
+
+.omni-modal--show {
+	opacity: 1;
+	visibility: visible;
+}
+
+.omni-modal--success {
+	background-color: rgb(25, 135, 84);
+
+}
+
+.omni-modal--warning {
+	background-color: rgb(33, 37, 41);
+}
+
+.omni-modal-content {
+    display: flex;
+}
+
+.omni-modal__close {
+	cursor: pointer;
+
+	position: absolute;
+	top: 5px;
+	right: 5px;
+
+	display: flex;
+}
+
+.omni-modal__close svg {
+	fill: #fff;
+}
+
+.omni-modal__text {
+	margin: 0;
+}
+
+div.dt-container select.dt-input {
+	padding: 4px;
+	min-width: 60px;
+}
+
+.data-links a{
+	//display: inline-block;
+}
+.omni-progress--hide{
+	display: none;
+}
+#progress-bar{
+	width:100%;
+	height:20px;
+}
+#remaining_time {
+	text-align: right;
+	float: right;
+}
+/* Modal */
+.omni-form-modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.omni-project-modal-content {
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 30px;
+	border: 1px solid #888;
+	width: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	animation-name: animatetop;
+	animation-duration: 0.4s;
+	text-align: center;
+
+	display: grid;
+	-ms-grid-columns: 1fr 100px;
+	grid-template-columns: 1fr 100px;
+	grid-gap: 10px;
+	align-items: center;
+	position: relative;
+}
+
+/* Close Button */
+.omni-modal-close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+	position: absolute;
+	right:3px;
+	top:3px;
+}
+
+.omni-modal-close:hover,
+.omni-modal-close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#custom_prompts textarea{
+	width:100%;
+	min-height:200px;
+}
+
+select#existing_project{
+	max-width: 47rem;
+}
+.data-date{
+	max-width: 125px;
+}
+
+#request_table tbody>tr>th, #request_table tbody>tr>td {
+	align-content: baseline;
+}
+.data-links .btn-omni--primary{
+	display: block;
+	margin-top: 13px;
+}
+
+#dt-length-0 {
+	margin-right: 5px;
+}
+
+.dt-search label{
+	margin-right: 5px;
+}

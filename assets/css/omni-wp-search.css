@@ -1,0 +1,114 @@
+.omni-search {
+  width: 100%;
+  max-width: 600px;
+  margin: 15px auto;
+}
+.omni-search form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.omni-search__search-wrp {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.omni-search__search-wrp button {
+  background-color: #1d7de7;
+  border: none;
+  color: white;
+  padding: 9px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 1rem;
+}
+.omni-search__search-wrp button:hover {
+  background-color: lightgrey;
+  color: #007BFF;
+}
+.omni-search__search-wrp .query-wrp {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex-grow: 1;
+}
+.omni-search__search-wrp .query-wrp #query {
+  position: relative;
+  padding: 8px 15px;
+  border-radius: 4px;
+  position: relative;
+  top: 0;
+  z-index: 20;
+  height: auto;
+  font-size: 1rem;
+  line-height: 1.1rem;
+}
+.omni-search__search-wrp .query-wrp #query_autocomplete {
+  background: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  border-left: 1px solid #e2e2e2;
+  border-right: 1px solid #e2e2e2;
+  border-radius: 0 0 3px 3px;
+  position: absolute;
+  top: 39px;
+  left: 2px;
+  z-index: 10;
+  width: 98%;
+  display: none;
+}
+.omni-search__search-wrp .query-wrp #query_autocomplete ul {
+  list-style: none;
+  padding-left: 0;
+  padding-right: 0.5rem;
+  margin-left: 1rem;
+}
+.omni-search__search-wrp .query-wrp #query_autocomplete ul li {
+  padding-bottom: 0.5rem;
+  line-height: 1.4rem;
+}
+.omni-search__search-wrp .query-wrp #query_autocomplete ul li:hover {
+  cursor: pointer;
+}
+
+#results {
+  width: 100%;
+}
+#results div {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+#results div h3 {
+  margin-top: 0;
+}
+#results blockquote {
+  border: 1px solid #00a32a;
+  margin-left: 0;
+  padding: 1rem;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.spin {
+  animation: rotate 2s linear infinite;
+}
+
+#custom_prompts textarea {
+  width: 100%;
+  min-height: 120px;
+}
+
+/*# sourceMappingURL=omni-wp-search.css.map */

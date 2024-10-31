@@ -1,0 +1,28 @@
+{
+  "name": "procoders/omni",
+  "description": "Customizable REST API endpoints with API Key authentication.",
+  "type": "wordpress-plugin",
+  "autoload": {
+    "psr-4": {
+      "Procoders\\Omni\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "procoders",
+      "email": "dev@procoders.tech"
+    }
+  ],
+  "require": {
+    "ext-json": "*",
+    "erusev/parsedown": "^1.7"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "require-dev": {
+    "wp-coding-standards/wpcs": "^3.0"
+  }
+}
